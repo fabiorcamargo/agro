@@ -1,6 +1,6 @@
-@seoTitle('Imigrante Legal')
-@seoDescription('O portal para quem sonha em morar no exterior!')
-@seoKeywords('exterior, morar fora, imigrante legal')
+@seoTitle('Jovem Aprendiz Agronegócio')
+@seoDescription('Plantando um futuro melhor.')
+@seoKeywords('jovem aprendiz, agronegocio, agro, Jovem Aprendiz Agronegócio')
 
 
 

@@ -14,8 +14,8 @@ return [
 
     'defaults' => [
         'title'       => env('APP_NAME', 'Laravel Splade'),
-        'description' => 'O portal para quem sonha em morar no exterior!',
-        'keywords'    => ['exterior, morar fora, imigrante legal'],
+        'description' => 'Plantando um futuro melhor.',
+        'keywords'    => ['jovem aprendiz, agronegocio, agro, Jovem Aprendiz Agronegócio'],
     ],
 
     'title_prefix'    => '',
