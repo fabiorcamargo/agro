@@ -1,0 +1,4 @@
+*
+!public/
+!company_img/*
+!.gitignore
