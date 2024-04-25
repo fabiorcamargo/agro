@@ -4,7 +4,7 @@
     <nav class="text-sm relative left-0 min-w-full w-56 z-30 ">
         <!-- Primary Navigation Menu -->
         <div class="max-full mx-auto px-4 ">
-            <div class="flex justify-between h-16">
+            <div class="flex justify-between h-10">
                 <div class="flex">
                     <!-- Logo -->
                     <div class="shrink-0 flex items-center">

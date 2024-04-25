@@ -1,8 +1,9 @@
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-base-200 pt-20">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="text-center lg:text-left">
       <h1 class="text-5xl font-bold">Inscreva-se Agora!</h1>
-      <p class="py-6">Inscreva-se para participar do Programa Jovem Aprendiz Agronegócio, nosso representante entrará em contato com você e agendar um horário para lhe atender.</p>
+      <p class="py-6">Inscreva-se para participar do Programa Jovem Aprendiz Agronegócio, nosso representante entrará em
+        contato com você e agendar um horário para lhe atender.</p>
     </div>
 
 
@@ -28,7 +29,7 @@
         }else if (typeof MauticSDK != 'undefined') {
             MauticSDK.onLoad();
         }
-    </script>
+      </script>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script>
@@ -66,14 +67,16 @@
 
     </head>
 
-    <div class="card flex-shrink-0 w-full max-w-sm shadow-md  bg-base-100">
+    <div class="card flex-shrink-0 w-full max-w-sm shadow-md bg-base-100">
       <div class="card-body">
         <x-authentication-card-logo />
-      
-      <style type="text/css" scoped>
-          .mauticform-field-hidden { display:none }
-      </style>
-        <div id="mauticform_wrapper_imigrante1" class="mauticform_wrapper">
+
+        <style type="text/css" scoped>
+          .mauticform-field-hidden {
+            display: none
+          }
+        </style>
+        <div id="mauticform_wrapper_imigrante1" class="mauticform_wrapper pt-10">
           <form autocomplete="false" role="form" method="post" class="form"
             action="https://imi.meusestudosead.com.br/form/submit?formId=1" id="mauticform_imigrante1"
             data-mautic-form="imigrante1" enctype="multipart/form-data">
@@ -86,12 +89,12 @@
                   data-validation-type="text">
                   <label id="mauticform_label_imigrante1_nome" for="mauticform_input_imigrante1_nome"
                     class="mauticform-label">Nome</label>
-                    <div class="relative mb-2">
+                  <div class="relative mb-2">
 
-                  <input type="text" name="mauticform[nome]" value="" id="mauticform_input_imigrante1_nome"
-                    class="input input-bordered w-full max-w-xs" required>
-                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
-                    </div>
+                    <input type="text" name="mauticform[nome]" value="" id="mauticform_input_imigrante1_nome"
+                      class="input input-bordered w-full max-w-xs" required>
+                    <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
+                  </div>
                 </div>
 
                 <div id="mauticform_imigrante1_email"
@@ -99,33 +102,33 @@
                   data-validation-type="email">
                   <label id="mauticform_label_imigrante1_email" for="mauticform_input_imigrante1_email"
                     class="mauticform-label">Email</label>
-                    <div class="relative mb-2">
+                  <div class="relative mb-2">
 
-                  <input type="email" name="mauticform[email]" value="" id="mauticform_input_imigrante1_email"
-                    class="input input-bordered w-full max-w-xs" required>
-                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
-                    </div>
+                    <input type="email" name="mauticform[email]" value="" id="mauticform_input_imigrante1_email"
+                      class="input input-bordered w-full max-w-xs" required>
+                    <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
+                  </div>
                 </div>
                 <div id="mauticform_imigrante1_telefone1"
                   class="mauticform-row mauticform-text mauticform-field-4 mauticform-required"
                   data-validate="telefone1" data-validation-type="text">
                   <label id="mauticform_label_imigrante1_telefone1" for="mauticform_input_imigrante1_telefone1"
                     class="mauticform-label">Telefone</label>
-                    <div class="relative mb-2">
-                      <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                        <div class="w-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-                          +55
-                        </div>
+                  <div class="relative mb-2">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                      <div class="w-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                        +55
                       </div>
-                      <input type="text" name="mauticform[telefone1]" value="" id="mauticform_input_imigrante1_telefone1"
-                        class="ps-12 input input-bordered w-full max-w-xs" required>
-                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
-                      
                     </div>
+                    <input type="text" name="mauticform[telefone1]" value="" id="mauticform_input_imigrante1_telefone1"
+                      class="ps-12 input input-bordered w-full max-w-xs" required>
+                    <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
+
+                  </div>
                 </div>
 
-                
+
 
 
                 <div id="mauticform_imigrante1_pais_interesse"
@@ -148,8 +151,10 @@
                     type="submit">Cadastrar</button>
                 </div> --}}
 
-                <div id="mauticform_imigrante1_submit" class="py-4 mauticform-row mauticform-button-wrapper mauticform-field-10">
-                  <button class="btn btn-default mauticform-button" name="mauticform[submit]" value="1" id="mauticform_input_imigrante1_submit" type="submit">CADASTRAR</button>
+                <div id="mauticform_imigrante1_submit"
+                  class="py-4 mauticform-row mauticform-button-wrapper mauticform-field-10">
+                  <button class="btn btn-default mauticform-button" name="mauticform[submit]" value="1"
+                    id="mauticform_input_imigrante1_submit" type="submit">CADASTRAR</button>
                 </div>
               </div>
             </div>
@@ -157,13 +162,16 @@
             <input type="hidden" name="mauticform[cidade]" id="mauticform_input_imigrante1_cidade"
               value="{{ ucfirst(request()->input('cidade')) }}">
             <input type="hidden" name="mauticform[estado]" id="mauticform_input_imigrante1_estado"
-              value="{{ ucfirst(request()->input('uf')) }}">       
-              
-              
-            <input type="hidden" name="mauticform[fbc]" value="{{isset($_COOKIE['_fbc']) ? $_COOKIE['_fbc'] : null;}}" id="mauticform_input_imigrante1_fbc" class="mauticform-input">
-            <input type="hidden" name="mauticform[fbp]" value="{{isset($_COOKIE['_fbp']) ? $_COOKIE['_fbp'] : null;}}" id="mauticform_input_imigrante1_fbp" class="mauticform-input">
-            <input type="hidden" name="mauticform[agent]" value="{{request()->userAgent()}}" id="mauticform_input_imigrante1_agent" class="mauticform-input">
-            
+              value="{{ ucfirst(request()->input('uf')) }}">
+
+
+            <input type="hidden" name="mauticform[fbc]" value="{{isset($_COOKIE['_fbc']) ? $_COOKIE['_fbc'] : null;}}"
+              id="mauticform_input_imigrante1_fbc" class="mauticform-input">
+            <input type="hidden" name="mauticform[fbp]" value="{{isset($_COOKIE['_fbp']) ? $_COOKIE['_fbp'] : null;}}"
+              id="mauticform_input_imigrante1_fbp" class="mauticform-input">
+            <input type="hidden" name="mauticform[agent]" value="{{request()->userAgent()}}"
+              id="mauticform_input_imigrante1_agent" class="mauticform-input">
+
             <input type="hidden" name="mauticform[return]" id="mauticform_imigrante1_return" value="">
             <input type="hidden" name="mauticform[formName]" id="mauticform_imigrante1_name" value="imigrante1">
           </form>
@@ -213,7 +221,7 @@
                   document.getElementById('mauticform_input_imigrante1_fbc').value = fbcCookie;
                   document.getElementById('mauticform_input_imigrante1_fbp').value = fbpCookie;
               }, 2000); // Espera 2 segundos (2000 milissegundos)
-          </script>
+            </script>
 
 
       </div>

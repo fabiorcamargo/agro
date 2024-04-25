@@ -20,7 +20,13 @@ export default {
       },
 
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                green1: '#015c18',
+                green2: '#003020',
+                green3: '#3ad40b',
+              },
+        },
     },
 
     plugins: [require('flowbite/plugin'), forms, typography, require('tailwindcss-animated'), require('@tailwindcss/aspect-ratio'), require("@tailwindcss/typography"), require("daisyui"),]

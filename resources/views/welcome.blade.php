@@ -31,12 +31,13 @@
 
     
     
-    <x-banner1 img="/Mulher.webp"/>
+    <x-banner1 img="/BG Agro.jpg"/>
     {{-- <x-post-list /> --}}
-    <x-post2-list />
     <section id="cadastro">
     <x-cadastro states="{!!$states!!}"/>
     </section>
+    <x-post2-list />
+
     
 
 
