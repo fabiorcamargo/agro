@@ -17,27 +17,28 @@
             var head            = document.getElementsByTagName('head')[0];
             var script          = document.createElement('script');
             script.type         = 'text/javascript';
-            script.src          = 'https://imi.meusestudosead.com.br/media/js/mautic-form.js?vdce848bf';
+            script.src          = 'https://agro.meusestudosead.com.br/media/js/mautic-form.js?v9da52bf7';
             script.onload       = function() {
                 MauticSDK.onLoad();
             };
             head.appendChild(script);
-            var MauticDomain = 'https://imi.meusestudosead.com.br';
+            var MauticDomain = 'https://agro.meusestudosead.com.br';
             var MauticLang   = {
                 'submittingMessage': "Por favor, aguarde..."
             }
         }else if (typeof MauticSDK != 'undefined') {
             MauticSDK.onLoad();
         }
-      </script>
+    </script>
+    
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script>
         $(document).ready(function() {
           // Desabilitar o botão de envio inicialmente
-          $('#mauticform_input_imigrante1_submit').prop('disabled', true);
+          $('#mauticform_input_agro_submit').prop('disabled', true);
       
-          $('#mauticform_input_imigrante1_telefone1').on('input', function() {
+          $('#mauticform_input_agro_telefone1').on('input', function() {
             var telInput = $(this);
             var formattedTel = formatPhoneNumber(telInput.val());
             telInput.val(formattedTel);
@@ -53,13 +54,13 @@
           }
       
           function checkPhoneNumberValidity() {
-            var telInput = $('#mauticform_input_imigrante1_telefone1');
+            var telInput = $('#mauticform_input_agro_telefone1');
             var telValue = telInput.val().replace(/\D/g, ''); // Remove non-digit characters
             // Habilitar ou desabilitar o botão de envio com base na validade do número de telefone
             if (telValue.length === 11) {
-              $('#mauticform_input_imigrante1_submit').prop('disabled', false);
+              $('#mauticform_input_agro_submit').prop('disabled', false);
             } else {
-              $('#mauticform_input_imigrante1_submit').prop('disabled', true);
+              $('#mauticform_input_agro_submit').prop('disabled', true);
             }
           }
         });
@@ -77,19 +78,18 @@
           }
         </style>
         <div id="mauticform_wrapper_imigrante1" class="mauticform_wrapper pt-10">
-          <form autocomplete="false" role="form" method="post" action="https://lead.aprendizagro.com.br/form/submit?formId=1" id="mauticform_agro2404" data-mautic-form="agro2404" enctype="multipart/form-data"><div class="mauticform-error" id="mauticform_agro2404_error"></div>
-
+          <form autocomplete="false" role="form" method="post" action="https://agro.meusestudosead.com.br/form/submit?formId=1" id="mauticform_agro" data-mautic-form="agro" enctype="multipart/form-data"><div class="mauticform-error" id="mauticform_agro_error"></div>
             <div class="mauticform-message" id="mauticform_agro2404_message"></div>
             <div class="mauticform-innerform">
               <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
                 <div id="mauticform_agro2404_nome"
                   class="mauticform-row mauticform-text mauticform-field-1 mauticform-required" data-validate="nome"
                   data-validation-type="text">
-                  <label id="mauticform_label_imigrante1_nome" for="mauticform_input_imigrante1_nome"
+                  <label id="mauticform_label_agro_nome" for="mauticform_input_agro_nome"
                     class="mauticform-label">Nome</label>
                   <div class="relative mb-2">
 
-                    <input type="text" name="mauticform[nome]" value="" id="mauticform_input_imigrante1_nome"
+                    <input type="text" name="mauticform[nome]" value="" id="mauticform_input_agro_nome"
                       class="input input-bordered w-full max-w-xs" required>
                     <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                   </div>
@@ -98,11 +98,11 @@
                 <div id="mauticform_agro2404_email"
                   class="mauticform-row mauticform-email mauticform-field-3 mauticform-required" data-validate="email"
                   data-validation-type="email">
-                  <label id="mauticform_label_imigrante1_email" for="mauticform_input_imigrante1_email"
+                  <label id="mauticform_label_agro_email" for="mauticform_input_agro_email"
                     class="mauticform-label">Email</label>
                   <div class="relative mb-2">
 
-                    <input type="email" name="mauticform[email]" value="" id="mauticform_input_imigrante1_email"
+                    <input type="email" name="mauticform[email]" value="" id="mauticform_input_agro_email"
                       class="input input-bordered w-full max-w-xs" required>
                     <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                   </div>
@@ -110,7 +110,7 @@
                 <div id="mauticform_agro2404_telefone1"
                   class="mauticform-row mauticform-text mauticform-field-4 mauticform-required"
                   data-validate="telefone1" data-validation-type="text">
-                  <label id="mauticform_label_imigrante1_telefone1" for="mauticform_input_imigrante1_telefone1"
+                  <label id="mauticform_label_agro_telefone1" for="mauticform_input_agro_telefone1"
                     class="mauticform-label">Telefone</label>
                   <div class="relative mb-2">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
@@ -119,7 +119,7 @@
                         +55
                       </div>
                     </div>
-                    <input type="text" name="mauticform[telefone1]" value="" id="mauticform_input_imigrante1_telefone1"
+                    <input type="text" name="mauticform[telefone1]" value="" id="mauticform_input_agro_telefone1"
                       class="ps-12 input input-bordered w-full max-w-xs" required>
                     <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
 
@@ -131,33 +131,34 @@
                   <br>
                   <button
                     class="border rounded-md shadow-sm font-bold py-2 px-4 focus:outline-none focus:ring focus:ring-opacity-50 bg-indigo-500 hover:bg-indigo-700 text-white border-transparent focus:border-indigo-300 focus:ring-indigo-200 btn btn-block btn-primary"
-                    name="mauticform[submit]" value="1" id="mauticform_input_imigrante1_submit"
+                    name="mauticform[submit]" value="1" id="mauticform_input_agro_submit"
                     type="submit">Cadastrar</button>
                 </div> --}}
 
                 <div id="mauticform_agro2404_submit"
                   class="py-4 mauticform-row mauticform-button-wrapper mauticform-field-10">
                   <button class="btn btn-default mauticform-button" name="mauticform[submit]" value="1"
-                    id="mauticform_input_imigrante1_submit" type="submit">CADASTRAR</button>
+                    id="mauticform_input_agro_submit" type="submit">CADASTRAR</button>
                 </div>
               </div>
             </div>
-            <input type="hidden" name="mauticform[formId]" id="mauticform_agro2404_id" value="1">
-            <input type="hidden" name="mauticform[cidade]" id="mauticform_input_imigrante1_cidade"
+            
+            <input type="hidden" name="mauticform[cidade]" id="mauticform_input_agro_cidade"
               value="{{ ucfirst(request()->input('cidade')) }}">
-            <input type="hidden" name="mauticform[estado]" id="mauticform_input_imigrante1_estado"
+            <input type="hidden" name="mauticform[estado]" id="mauticform_input_agro_estado"
               value="{{ ucfirst(request()->input('uf')) }}">
 
 
             <input type="hidden" name="mauticform[fbc]" value="{{isset($_COOKIE['_fbc']) ? $_COOKIE['_fbc'] : null;}}"
-              id="mauticform_input_imigrante1_fbc" class="mauticform-input">
+              id="mauticform_input_agro_fbc" class="mauticform-input">
             <input type="hidden" name="mauticform[fbp]" value="{{isset($_COOKIE['_fbp']) ? $_COOKIE['_fbp'] : null;}}"
-              id="mauticform_input_imigrante1_fbp" class="mauticform-input">
+              id="mauticform_input_agro_fbp" class="mauticform-input">
             <input type="hidden" name="mauticform[agent]" value="{{request()->userAgent()}}"
-              id="mauticform_input_imigrante1_agent" class="mauticform-input">
+              id="mauticform_input_agro_agent" class="mauticform-input">
 
-            <input type="hidden" name="mauticform[return]" id="mauticform_agro2404_return" value="">
-            <input type="hidden" name="mauticform[formName]" id="mauticform_agro2404_name" value="imigrante1">
+              <input type="hidden" name="mauticform[formId]" id="mauticform_agro_id" value="1">
+              <input type="hidden" name="mauticform[return]" id="mauticform_agro_return" value="">
+              <input type="hidden" name="mauticform[formName]" id="mauticform_agro_name" value="agro">
           </form>
         </div>
 
@@ -202,8 +203,8 @@
                   var fbpCookie = document.cookie.replace(/(?:(?:^|.*;\s*)_fbp\s*\=\s*([^;]*).*$)|^.*$/, "$1");
           
                   // Define os valores dos cookies nos campos de entrada
-                  document.getElementById('mauticform_input_imigrante1_fbc').value = fbcCookie;
-                  document.getElementById('mauticform_input_imigrante1_fbp').value = fbpCookie;
+                  document.getElementById('mauticform_input_agro_fbc').value = fbcCookie;
+                  document.getElementById('mauticform_input_agro_fbp').value = fbpCookie;
               }, 2000); // Espera 2 segundos (2000 milissegundos)
             </script>
 
