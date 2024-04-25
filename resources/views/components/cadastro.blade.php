@@ -77,14 +77,12 @@
           }
         </style>
         <div id="mauticform_wrapper_imigrante1" class="mauticform_wrapper pt-10">
-          <form autocomplete="false" role="form" method="post" class="form"
-            action="https://imi.meusestudosead.com.br/form/submit?formId=1" id="mauticform_imigrante1"
-            data-mautic-form="imigrante1" enctype="multipart/form-data">
-            <div class="mauticform-error" id="mauticform_imigrante1_error"></div>
-            <div class="mauticform-message" id="mauticform_imigrante1_message"></div>
+          <form autocomplete="false" role="form" method="post" action="https://lead.aprendizagro.com.br/form/submit?formId=1" id="mauticform_agro2404" data-mautic-form="agro2404" enctype="multipart/form-data"><div class="mauticform-error" id="mauticform_agro2404_error"></div>
+
+            <div class="mauticform-message" id="mauticform_agro2404_message"></div>
             <div class="mauticform-innerform">
               <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
-                <div id="mauticform_imigrante1_nome"
+                <div id="mauticform_agro2404_nome"
                   class="mauticform-row mauticform-text mauticform-field-1 mauticform-required" data-validate="nome"
                   data-validation-type="text">
                   <label id="mauticform_label_imigrante1_nome" for="mauticform_input_imigrante1_nome"
@@ -97,7 +95,7 @@
                   </div>
                 </div>
 
-                <div id="mauticform_imigrante1_email"
+                <div id="mauticform_agro2404_email"
                   class="mauticform-row mauticform-email mauticform-field-3 mauticform-required" data-validate="email"
                   data-validation-type="email">
                   <label id="mauticform_label_imigrante1_email" for="mauticform_input_imigrante1_email"
@@ -109,7 +107,7 @@
                     <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                   </div>
                 </div>
-                <div id="mauticform_imigrante1_telefone1"
+                <div id="mauticform_agro2404_telefone1"
                   class="mauticform-row mauticform-text mauticform-field-4 mauticform-required"
                   data-validate="telefone1" data-validation-type="text">
                   <label id="mauticform_label_imigrante1_telefone1" for="mauticform_input_imigrante1_telefone1"
@@ -128,7 +126,7 @@
                   </div>
                 </div>
 
-                {{-- <div id="mauticform_imigrante1_submit"
+                {{-- <div id="mauticform_agro2404_submit"
                   class="mauticform-row mauticform-button-wrapper mauticform-field-5">
                   <br>
                   <button
@@ -137,14 +135,14 @@
                     type="submit">Cadastrar</button>
                 </div> --}}
 
-                <div id="mauticform_imigrante1_submit"
+                <div id="mauticform_agro2404_submit"
                   class="py-4 mauticform-row mauticform-button-wrapper mauticform-field-10">
                   <button class="btn btn-default mauticform-button" name="mauticform[submit]" value="1"
                     id="mauticform_input_imigrante1_submit" type="submit">CADASTRAR</button>
                 </div>
               </div>
             </div>
-            <input type="hidden" name="mauticform[formId]" id="mauticform_imigrante1_id" value="1">
+            <input type="hidden" name="mauticform[formId]" id="mauticform_agro2404_id" value="1">
             <input type="hidden" name="mauticform[cidade]" id="mauticform_input_imigrante1_cidade"
               value="{{ ucfirst(request()->input('cidade')) }}">
             <input type="hidden" name="mauticform[estado]" id="mauticform_input_imigrante1_estado"
@@ -158,8 +156,8 @@
             <input type="hidden" name="mauticform[agent]" value="{{request()->userAgent()}}"
               id="mauticform_input_imigrante1_agent" class="mauticform-input">
 
-            <input type="hidden" name="mauticform[return]" id="mauticform_imigrante1_return" value="">
-            <input type="hidden" name="mauticform[formName]" id="mauticform_imigrante1_name" value="imigrante1">
+            <input type="hidden" name="mauticform[return]" id="mauticform_agro2404_return" value="">
+            <input type="hidden" name="mauticform[formName]" id="mauticform_agro2404_name" value="imigrante1">
           </form>
         </div>
 
