@@ -128,20 +128,6 @@
                   </div>
                 </div>
 
-
-
-
-                <div id="mauticform_imigrante1_pais_interesse"
-                  class="mauticform-row mauticform-text mauticform-field-4 mauticform-required"
-                  data-validate="pais_interesse" data-validation-type="text">
-                  <label id="mauticform_label_imigrante1_pais_interesse"
-                    for="mauticform_input_imigrante1_pais_interesse" class="mauticform-label">País de Interesse</label>
-                  <input type="text" name="mauticform[pais_interesse]" value=""
-                    id="mauticform_input_imigrante1_pais_interesse" class="input input-bordered w-full max-w-xs"
-                    required>
-                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
-                </div>
-
                 {{-- <div id="mauticform_imigrante1_submit"
                   class="mauticform-row mauticform-button-wrapper mauticform-field-5">
                   <br>
