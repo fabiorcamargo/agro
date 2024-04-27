@@ -33,17 +33,17 @@ Route::post('/form_send', function (Request $request) {
 
     $data = json_decode($request->getContent(), true);
 
-    dd($data['mautic.form_on_submit'][0]['submission']['results']);
+    //dd($data['mautic.form_on_submit'][0]['submission']['results']);
     // Acesse o email
 
     $dados = [];
     if (isset($data['mautic.form_on_submit'])) {
-        $dados['agent'] = $data['mautic.form_on_submit'][0]['submission']['results']['agent'];
+        $dados['agent'] = $data['mautic.form_on_submit'][0]['submission']['results']['agent1'];
         $dados['fbid'] = $data['mautic.form_on_submit'][0]['submission']['trackingId'];
         $dados['email'] = hash('sha256', $data['mautic.form_on_submit'][0]['submission']['results']['email']);
         $dados['phone'] = $data['mautic.form_on_submit'][0]['submission']['results']['celular'];
         $dados['fbp'] = $data['mautic.form_on_submit'][0]['submission']['results']['fbp'];
-        $dados['fbc'] = $data['mautic.form_on_submit'][0]['submission']['results']['fbc'];
+        $dados['fbc'] = $data['mautic.form_on_submit'][0]['submission']['results']['fbc1'];
         $dados['cidade'] = hash('sha256', strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', $data['mautic.form_on_submit'][0]['submission']['results']['cidade']))));
         $dados['estado'] = hash('sha256', strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', $data['mautic.form_on_submit'][0]['submission']['results']['estado']))));
         $dados['ip'] = $data['mautic.form_on_submit'][0]['submission']['ipAddress']['ipAddress'];
