@@ -276,11 +276,11 @@
                 <input type="hidden" name="mauticform[state2]" id="mauticform_input_agro_state2"
                   value="{{ ucfirst(request()->input('uf')) }}">
 
-                <input type="hidden" name="mauticform[agent]" id="mauticform_input_agro_agent"
-                  value="{{ request()->server('HTTP_USER_AGENT') }}">
+                <input type="hidden" name="mauticform[agent1]" id="mauticform_input_agro_agent1"
+                  value="{{ request()->server('HTTP_USER_agent1') }}">
                 <input type="hidden" name="mauticform[fbp]" id="mauticform_input_agro_fbp"
                   value="{{ (request()->input('fbp')) }}">
-                <input type="hidden" name="mauticform[fbc]" id="mauticform_input_agro_fbc"
+                <input type="hidden" name="mauticform[fbc1]" id="mauticform_input_agro_fbc1"
                   value="{{ (request()->input('fbp')).'.'.(request()->input('fbclid')) }}">
 
 
@@ -304,7 +304,7 @@
                   var fbpCookie = document.cookie.replace(/(?:(?:^|.*;\s*)_fbp\s*\=\s*([^;]*).*$)|^.*$/, "$1");
           
                   // Define os valores dos cookies nos campos de entrada
-                  document.getElementById('mauticform_input_agro_fbc').value = fbcCookie;
+                  //document.getElementById('mauticform_input_agro_fbc').value = fbcCookie;
                   document.getElementById('mauticform_input_agro_fbp').value = fbpCookie;
               }, 2000); // Espera 2 segundos (2000 milissegundos)
         </script>
