@@ -85,7 +85,7 @@ class FacebookApi extends Controller
                 ])
                 ->post("https://graph.facebook.com/v18.0/{$this->fbId}/events", json_decode($this->data));
 
-                
+                dd($response->body());
             if ($response->successful()) {
                 $content = $response->json();
 
@@ -97,7 +97,7 @@ class FacebookApi extends Controller
                 throw new \Exception($error_message . ' (' . $response->status() . ')');
             }
         } catch (\Exception $e) {
-            //dd($e->getMessage());
+            dd($e->getMessage());
         }
     }
 

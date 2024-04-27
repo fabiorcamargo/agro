@@ -8,7 +8,7 @@
 
 
     <head>
-      <title>Validação de Número de Celular Brasileiro</title>
+      <title>Validação de Número de telefone Brasileiro</title>
 
       <script type="text/javascript">
         /** This section is only needed once per page if manually copying **/
@@ -39,7 +39,7 @@
           // Desabilitar o botão de envio inicialmente
           $('#mauticform_input_agro_submit').prop('disabled', true);
       
-          $('#mauticform_input_agro_celular').on('input', function() {
+          $('#mauticform_input_agro_telefone').on('input', function() {
             var telInput = $(this);
             var formattedTel = formatPhoneNumber(telInput.val());
             telInput.val(formattedTel);
@@ -55,7 +55,7 @@
           }
       
           function checkPhoneNumberValidity() {
-            var telInput = $('#mauticform_input_agro_celular');
+            var telInput = $('#mauticform_input_agro_telefone');
             var telValue = telInput.val().replace(/\D/g, ''); // Remove non-digit characters
             // Habilitar ou desabilitar o botão de envio com base na validade do número de telefone
             if (telValue.length === 11) {
@@ -237,11 +237,11 @@
                 </div>
 
 
-                <div id="mauticform_agro_Celular"
-                  class="mauticform-row mauticform-Celular mauticform-field-3 mauticform-required" data-validate="Celular"
-                  data-validation-type="Celular">
-                  <label id="mauticform_label_agro_Celular" for="mauticform_input_agro_Celular"
-                    class="mauticform-label">Celular</label>
+                <div id="mauticform_agro_telefone"
+                  class="mauticform-row mauticform-telefone mauticform-field-3 mauticform-required" data-validate="telefone"
+                  data-validation-type="telefone">
+                  <label id="mauticform_label_agro_telefone" for="mauticform_input_agro_telefone"
+                    class="mauticform-label">Telefone</label>
 
                   <div class="relative mb-2">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
@@ -250,7 +250,7 @@
                         +55
                       </div>
                     </div>
-                    <input type="text" name="mauticform[celular]" value="" id="mauticform_input_agro_celular"
+                    <input type="text" name="mauticform[telefone]" value="" id="mauticform_input_agro_telefone"
                       class="ps-12 input input-bordered w-full max-w-xs" required>
                     <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                   </div>
