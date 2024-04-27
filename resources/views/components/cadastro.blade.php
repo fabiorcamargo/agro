@@ -277,11 +277,11 @@
                   value="{{ ucfirst(request()->input('uf')) }}">
 
                 <input type="hidden" name="mauticform[agent1]" id="mauticform_input_agro_agent1"
-                  value="{{ request()->header('User-Agent') }}">
+                  value="">
                 <input type="hidden" name="mauticform[fbp]" id="mauticform_input_agro_fbp"
                   value="">
                 <input type="hidden" name="mauticform[fbc1]" id="mauticform_input_agro_fbc1"
-                  value="{{ (request()->input('fbp')).'.'.(request()->input('fbclid')) }}">
+                  value="">
 
 
 
@@ -302,13 +302,17 @@
               setTimeout(function() {
                 var urlParams = new URLSearchParams(window.location.search);
                 var fbclidParam = urlParams.get('fbclid');
+                var userAgent = navigator.userAgent;
 
                   var fbcCookie = document.cookie.replace(/(?:(?:^|.*;\s*)_fbc\s*\=\s*([^;]*).*$)|^.*$/, "$1");
                   var fbpCookie = document.cookie.replace(/(?:(?:^|.*;\s*)_fbp\s*\=\s*([^;]*).*$)|^.*$/, "$1");
                   var fbclid = fbpCookie + '.' + fbclidParam;
+
                   // Define os valores dos cookies nos campos de entrada
                   document.getElementById('mauticform_input_agro_fbc1').value = fbclid;
                   document.getElementById('mauticform_input_agro_fbp').value = fbpCookie;
+                  document.getElementById('mauticform_input_agro_agent1').value = userAgent;
+
               }, 2000); // Espera 2 segundos (2000 milissegundos)
         </script>
 
