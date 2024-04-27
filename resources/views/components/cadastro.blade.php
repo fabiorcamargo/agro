@@ -277,7 +277,7 @@
                   value="{{ ucfirst(request()->input('uf')) }}">
 
                 <input type="hidden" name="mauticform[agent1]" id="mauticform_input_agro_agent1"
-                  value="{{ request()->server('HTTP_USER_agentu') }}">
+                  value="{{ request()->header('User-Agent') }}">
                 <input type="hidden" name="mauticform[fbp]" id="mauticform_input_agro_fbp"
                   value="">
                 <input type="hidden" name="mauticform[fbc1]" id="mauticform_input_agro_fbc1"
