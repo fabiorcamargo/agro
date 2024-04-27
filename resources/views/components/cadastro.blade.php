@@ -220,7 +220,7 @@
             action="https://agro.meusestudosead.com.br/form/submit?formId=1" id="mauticform_agro"
             data-mautic-form="agro" enctype="multipart/form-data">
             <div class="mauticform-error" id="mauticform_agro_error"></div>
-            <div class="mauticform-message badge badge-success mb-4" id="mauticform_agro_message"> </div>
+            <div class="mauticform-message mb-4" id="mauticform_agro_message"> </div>
             <div class="mauticform-innerform">
               <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
 

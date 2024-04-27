@@ -53,8 +53,8 @@
       <form method="dialog" class="modal-box">
         <a href="/" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</a>
         <h3 class="font-bold text-lg">Parabéns!</h3>
-        <h4 class="py-4">Te enviamos um email de confirmação! </h4>
-        <p class=""> <b> Verifique sua caixa de entrada</b>, caso tenha caido em spam clique em <b>NÃO É SPAN</b> para receber nossas atualizações.</p>
+        <h4 class="py-4">Seu cadastro foi efetuado com sucesso! </h4>
+        <p class=""> Em até 15 dias entraremos em contato para enviar novas informações<br>Obrigado por se cadastrar.</p>
         <div class="modal-action">
           <!-- if there is a button in form, it will close the modal -->
           <a href="/" class="btn">Fechar</a>
