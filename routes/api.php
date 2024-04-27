@@ -33,6 +33,19 @@ Route::post('/form_send', function (Request $request) {
 
     $data = json_decode($request->getContent(), true);
 
+
+    // Obtém os dados do corpo da requisição POST
+    $dados = $request->all();
+
+    // Converte os dados para uma string formatada
+    $dadosFormatados = json_encode($dados);
+
+    // Caminho onde o arquivo será salvo
+    $caminhoArquivo = storage_path('app/dados_formulario.txt');
+
+    // Salva os dados no arquivo de texto
+    file_put_contents($caminhoArquivo, $dadosFormatados);
+    
     //dd($data['mautic.form_on_submit'][0]['submission']['results']);
     // Acesse o email
 
