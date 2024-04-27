@@ -97,7 +97,7 @@ class FacebookApi extends Controller
                 throw new \Exception($error_message . ' (' . $response->status() . ')');
             }
         } catch (\Exception $e) {
-            dd($e->getMessage());
+            //dd($e->getMessage());
         }
     }
 
