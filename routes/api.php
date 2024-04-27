@@ -57,7 +57,7 @@ Route::post('/form_send', function (Request $request) {
         $dados['fbp'] = $data['mautic.form_on_submit'][0]['submission']['results']['fbp'];
         $dados['fbc'] = $data['mautic.form_on_submit'][0]['submission']['results']['fbc1'];
         $dados['cidade'] = hash('sha256', strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', $data['mautic.form_on_submit'][0]['submission']['results']['cidade']))));
-        $dados['estado'] = hash('sha256', strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', $data['mautic.form_on_submit'][0]['submission']['results']['estado']))));
+        $dados['estado'] = hash('sha256', strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', $data['mautic.form_on_submit'][0]['submission']['results']['state2']))));
         $dados['ip'] = $data['mautic.form_on_submit'][0]['submission']['ipAddress']['ipAddress'];
         $dados['url'] = $data['mautic.form_on_submit'][0]['submission']['referer'];
         $dados['time'] = strtotime($data['mautic.form_on_submit'][0]['submission']['dateSubmitted']);
