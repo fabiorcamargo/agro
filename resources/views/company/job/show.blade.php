@@ -47,7 +47,7 @@
                 
     
                 <a href="/country/{{$data->getcompany()->first()->id}}" class="btn btn-sm ">
-                  Detalhes do País
+                  Detalhes
                 </a>
     
               </div>
