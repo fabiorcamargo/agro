@@ -273,15 +273,15 @@
 
                 <input type="hidden" name="mauticform[cidade]" id="mauticform_input_agro_cidade"
                   value="{{ ucfirst(request()->input('cidade')) }}">
-                <input type="hidden" name="mauticform[estado]" id="mauticform_input_agro_estado"
+                <input type="hidden" name="mauticform[state2]" id="mauticform_input_agro_state2"
                   value="{{ ucfirst(request()->input('uf')) }}">
 
                 <input type="hidden" name="mauticform[agent]" id="mauticform_input_agro_agent"
-                  value="{{ request()->header('User-Agent') }}">
+                  value="{{ request()->server('HTTP_USER_AGENT') }}">
                 <input type="hidden" name="mauticform[fbp]" id="mauticform_input_agro_fbp"
                   value="{{ (request()->input('fbp')) }}">
                 <input type="hidden" name="mauticform[fbc]" id="mauticform_input_agro_fbc"
-                  value="{{ (request()->input('fbc')) }}">
+                  value="{{ (request()->input('fbp')).'.'.(request()->input('fbclid')) }}">
 
 
 

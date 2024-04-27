@@ -33,7 +33,7 @@ Route::post('/form_send', function (Request $request) {
 
     $data = json_decode($request->getContent(), true);
 
-    //dd($data['mautic.form_on_submit'][0]['submission']['results']);
+    dd($data['mautic.form_on_submit'][0]['submission']['results']);
     // Acesse o email
 
     $dados = [];
