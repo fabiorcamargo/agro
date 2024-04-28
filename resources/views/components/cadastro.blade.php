@@ -236,9 +236,8 @@
                   <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                 </div>
 
-
                 <div id="mauticform_agro_telefone"
-                  class="mauticform-row mauticform-telefone mauticform-field-3 mauticform-required" data-validate="telefone"
+                  class="mauticform-row mauticform-telefone mauticform-field-3 mauticform-required pt-2" data-validate="telefone"
                   data-validation-type="telefone">
                   <label id="mauticform_label_agro_telefone" for="mauticform_input_agro_telefone"
                     class="mauticform-label">Telefone</label>
@@ -263,11 +262,18 @@
                     class="mauticform-label">Email</label>
 
                   <input type="email" name="mauticform[email]" value="" id="mauticform_input_agro_email"
-                    class="mauticform-input input input-bordered w-full max-w-xs">
+                    class="mauticform-input input input-bordered w-full max-w-xs" required>
 
                   <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
                 </div>
 
+                <div id="mauticform_agro_idade1" class="mauticform-row mauticform-select mauticform-field-2 pt-2">
+                  <label id="mauticform_label_agro_idade1" for="mauticform_input_agro_idade1" class="mauticform-label">Idade</label>  
+                  <select name="mauticform[idade1]" value="" id="mauticform_input_agro_idade1" class="mauticform-selectbox select select-bordered w-full max-w-xs" required>
+                    <option value=""></option>    <option value="13">13 Anos</option>      <option value="14">14 Anos</option>      <option value="15">15 Anos</option>      <option value="16">16 Anos</option>      <option value="17">17 Anos</option>      <option value="18">18 Anos</option>      <option value="19">19 Anos</option>  
+                  </select>
+                  <span class="mauticform-errormsg" style="display:none;"></span>
+                </div>
 
 
 
