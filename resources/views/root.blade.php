@@ -21,11 +21,12 @@
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '2110608215978765');
+            fbq('init', "<?php echo env('FB_ID'); ?>"); // Use o PHP para obter a variável do ambiente
             fbq('track', 'PageView');
     </script>
+    
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=2110608215978765&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id={{env('FB_ID')}}&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
     <!-- Google tag (gtag.js) -->

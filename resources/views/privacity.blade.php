@@ -26,7 +26,7 @@
                               <p dir="ltr" style="text-align: left;"></p>
                               <p><b>POLÍTICA DE PRIVACIDADE</b></p>
                               <p><b>SEÇÃO 1 - INFORMAÇÕES GERAIS</b></p>
-                              <p>A presente Política de Privacidade contém informações sobre coleta, uso, armazenamento, tratamento e proteção dos dados pessoais dos usuários e visitantes do aplicativo Jovem Aprendiz Agronegócio OU site imigrantelegal.com.br, com a finalidade de demonstrar absoluta transparência quanto ao assunto e esclarecer a todos interessados sobre os tipos de dados que são coletados, os motivos da coleta e a forma como os usuários podem gerenciar ou excluir as suas informações pessoais.</p>
+                              <p>A presente Política de Privacidade contém informações sobre coleta, uso, armazenamento, tratamento e proteção dos dados pessoais dos usuários e visitantes do aplicativo Jovem Aprendiz Agronegócio OU site aprendizagro.com.br, com a finalidade de demonstrar absoluta transparência quanto ao assunto e esclarecer a todos interessados sobre os tipos de dados que são coletados, os motivos da coleta e a forma como os usuários podem gerenciar ou excluir as suas informações pessoais.</p>
                               <p>Esta Política de Privacidade aplica-se a todos os usuários e visitantes e integra os Termos e Condições Gerais de Uso do aplicativo ou site, denominado Jovem Aprendiz Agronegócio, doravante nominada Jovem Aprendiz Agronegócio.</p>
                               <p>O presente documento foi elaborado em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei&nbsp;13.709/18), o&nbsp;Marco Civil da Internet&nbsp;(Lei&nbsp;12.965/14) (e o Regulamento da UE n. 2016/6790). Ainda, o documento poderá ser atualizado em decorrência de eventual atualização normativa, razão pela qual se convida o usuário a consultar periodicamente esta seção.</p>
                               <p id="yui_3_18_1_1_1712801953981_23"><b>SEÇÃO 2 - COMO RECOLHEMOS OS DADOS PESSOAIS DO USUÁRIO E DO VISITANTE?</b></p>
@@ -89,7 +89,7 @@
                               <p>O cookie persistente permanece no disco rígido do usuário e visitante depois que o navegador é fechado e será usado pelo navegador em visitas subsequentes ao site. Os cookies persistentes podem ser removidos seguindo as instruções do seu navegador. Já o cookie de sessão é temporário e desaparece depois que o navegador é fechado. É possível redefinir seu navegador da web para recusar todos os cookies, porém alguns recursos da plataforma podem não funcionar corretamente se a capacidade de aceitar cookies estiver desabilitada.</p>
                               <p><b>SEÇÃO 8 - CONSENTIMENTO</b></p>
                               <p>Ao utilizar os serviços e fornecer as informações pessoais na plataforma, o usuário está consentindo com a presente Política de Privacidade.</p>
-                              <p>O usuário tem direito de retirar o seu consentimento a qualquer tempo, para tanto deve entrar em contato através do e-mail contato@imigrantelegal.com.br ou por correio enviado ao endereço: Av. Advogado Horácio Raccanello Filho, 5410 - Centro, Maringá - PR, 87020-035.</p>
+                              <p>O usuário tem direito de retirar o seu consentimento a qualquer tempo, para tanto deve entrar em contato através do e-mail contato@aprendizagro.com.br ou por correio enviado ao endereço: Av. Advogado Horácio Raccanello Filho, 5410 - Centro, Maringá - PR, 87020-035.</p>
                               <p><b>SEÇÃO 9 - ALTERAÇÃO DESTA POLÍTICA DE PRIVACIDADE</b></p>
                               <p>A presente Política de Privacidade pode ser atualizada a qualquer momento e caberá ao usuário verificá-la sempre que efetuar o acesso à plataforma. O usuário fica responsável por checar a Política de Privacidade toda vez que fornecer informações pessoais.</p>
                               <p>As alterações serão devidamente informadas, para ciência dos usuários e visitantes da plataforma.</p>
@@ -98,7 +98,7 @@
                               <p>Os eventuais litígios deverão ser apresentados no foro da comarca em que se encontra a sede da empresa.</p>
                               <p><b>QUESTÕES</b></p>
                               <p>Quaisquer dúvidas, sugestões ou preocupações a respeito desta política de privacidade podem ser esclarecidas entrando em contato conosco.</p>
-                              <p>E-mail: contato@imigrantelegal.com.br</p>
+                              <p>E-mail: contato@aprendizagro.com.br</p>
                           </div>
                       </div>
                   </div>
