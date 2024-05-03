@@ -275,11 +275,33 @@
                 </div>
 
 
+                <div id="mauticform_agro_cidade"
+                  class="mauticform-row mauticform-text mauticform-field-1 mauticform-required pt-2" data-validate="cidade"
+                  data-validation-type="text">
+                  <label id="mauticform_label_agro_cidade" for="mauticform_input_agro_cidade"
+                    class="mauticform-label">Cidade</label>
 
-                <input type="hidden" name="mauticform[cidade]" id="mauticform_input_agro_cidade"
-                  value="{{ ucfirst(request()->input('cidade')) }}">
-                <input type="hidden" name="mauticform[state2]" id="mauticform_input_agro_state2"
+                    <input type="text" name="mauticform[cidade]" id="mauticform_input_agro_cidade"
+                    class="mauticform-input input input-bordered w-full max-w-xs "
+                    value="{{ ucfirst(request()->input('cidade')) }}">
+
+                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
+                </div>
+
+                <div id="mauticform_agro_estado"
+                  class="mauticform-row mauticform-text mauticform-field-1 mauticform-required pt-2" data-validate="estado"
+                  data-validation-type="text">
+                  <label id="mauticform_label_agro_estado" for="mauticform_input_agro_estado"
+                    class="mauticform-label">Estado</label>
+
+                    <input type="text" name="mauticform[state2]" id="mauticform_input_agro_state2"
+                    class="mauticform-input input input-bordered w-full max-w-xs "
                   value="{{ ucfirst(request()->input('uf')) }}">
+
+                  <span class="mauticform-errormsg" style="display:none;">Isso é obrigatório.</span>
+                </div>
+                
+                
 
                 <input type="hidden" name="mauticform[agent1]" id="mauticform_input_agro_agent1"
                   value="">
