@@ -74,7 +74,7 @@
         <div class="mx-auto text-center lg:mx-0 lg:flex-auto lg:py-10 lg:text-left">
             <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">{{env('MARKETING1')}}
                 {{request()->input('cidade') ? request()->input('cidade') : "Sua Cidade" }} {{" - "}} {{request()->input('uf') ? request()->input('uf') : "" }}</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-300">Para Jovens de 13 à 21 anos!</p>
+            <p class="mt-6 text-lg leading-8 text-gray-300">Para Jovens de 13 à 19 anos!</p>
 
             <p class="mt-6 text-lg leading-8 text-gray-300">Introdução ao Agronegócio: Descubra a base de tudo e como você pode se destacar neste setor dinâmico.
                 Drone e Tecnologia, Contratos e Negociações, Saúde e Radiologia Animal, Pastagem e Plantio, Maquinário,
